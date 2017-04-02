@@ -19,11 +19,15 @@
 <h4 dir="rtl">ابتدا سورس <em>ربات تبلیغ‌گر</em> را کپی کرده و پیش‌زمینه‌ها را نصب کنید.</h4>
 <h6>(موارد زیر را در ترمینال وارد کنید)</h6>
 <pre>
-<span>git clone https://github.com/i-naji/tabchi.git -b persian</span>
+<span>git clone https://github.com/mhmspm/tabchi2</span>
 <span>mv tabchi2 tabchi</span>
 <span>cd tabchi</span>
 <span>chmod +x bot</span>
 <span>./bot install</span>
+</pre>
+<h6>(یا...)</h6>
+<pre>
+<span>git clone https://github.com/mhmspm/tabchi2 && mv tabchi2 tabchi && cd tabchi && chmod +x bot && ./bot install </span>
 </pre>
 <h4 dir="rtl"> برای ساخت ربات جدید <strong>bot create/.</strong> را وارد کنید.
 </h4>
